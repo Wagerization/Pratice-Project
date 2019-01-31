@@ -1,0 +1,45 @@
+
+@media only screen and (max-width: 768px){
+    *, html{
+        padding: 0px; 
+        margin: 0px;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    header{
+        padding: 0 20px;
+    }
+    .menu-toggle{
+        display: block;
+        padding-top: 10px;
+    }
+    header nav{
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: rgba(51, 51, 51, 0);
+        top: 50px;
+        left: -100%;
+        transition: 0.5;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul{
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0,.2);
+        color: #fff;
+    }
+    .container-intro h1{
+        text-align: center;
+    }
+    .iconwrap{
+        column-count: 2;
+    }
+    
+}

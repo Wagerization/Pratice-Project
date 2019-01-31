@@ -1,0 +1,165 @@
+*, html{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    box-sizing: border-box;
+    background-color: #072930;
+    width: 100%;
+}
+header .logo{
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+    
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a {
+    font-size: .8em;
+    height: 50px;
+    line-height: 50px; 
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: #fff;
+    background: #073944;
+}
+.menu-toggle{
+    color: #fff;
+    float: right;
+    line-height: 50px ;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+.break{
+    float: none;
+}
+.intro{
+    background-image: url(../img/intro-bg.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+.gradient{
+    background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%);
+    width: 100%;
+    height: 100%;
+}
+.container-intro{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.container-intro h1{font-size: 60px;}
+
+.container-intro h3{font-size: 18px;}
+
+.studio7-title{
+    color: #09B7D3;
+    font-weight: 100;
+}
+.services{
+    background-color: #073944;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 150px 0;
+    
+}
+.iconwrap{
+    column-count: 4;
+    text-align: center; 
+    margin: 0px auto; 
+}
+.iconwrap h1{
+    color: #09B7D3;
+    text-transform: capitalize;
+    font-size: 1.4em;
+    padding-top: 65px;
+}
+.iconwrap p{
+    color: rgba(255,255,255,0.5);
+    margin: 0 25px;
+    
+}
+.services-title h1{
+    color: #09B7D3;
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+.services-title p{
+    color: rgba(255,255,255,0.5);
+    
+}
+.aboutus-wrapper{
+    background-color: #0BB7D4;
+    text-align: center;
+    margin: 0px auto;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.aboutus{
+    text-transform: uppercase;
+    
+}
+.aboutus-text{
+    -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+          width: 100%;
+          margin: 0px auto;
+  -webkit-column-gap: normal;
+     -moz-column-gap: normal;
+          column-gap: normal;
+}
+.aboutus h1{
+    padding-bottom: 15px;
+}
+.aboutus p{
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+.sub-text{
+    text-align: justify;
+    
+}
+.sub-text h2{
+    padding-top: 25px;
+    padding-bottom: 17px;
+}
+.aboutimg{
+    margin-right: 15px;
+}

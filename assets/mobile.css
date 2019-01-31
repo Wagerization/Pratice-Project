@@ -1,0 +1,20 @@
+@media only screen and (width: 425px){
+    *, html{
+        padding: 0px; 
+        margin: 0px;
+        width: 100%;
+    }
+    .services-title p{
+        font-size: 15px;
+    } 
+    .iconwrap h1{
+        line-height: 25px;
+        font-size: 1.2em;
+    }
+    .gear .rocket-ship p{
+        padding-bottom: 115px;
+    }
+    .container-intro h1{
+        font-size: 42px;
+    }
+}
