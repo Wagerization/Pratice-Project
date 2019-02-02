@@ -121,7 +121,7 @@ header nav ul li a.active{
 }
 .services-title p{
     color: rgba(255,255,255,0.5);
-    
+    padding: 0px 120px;
 }
 .aboutus-wrapper{
     background-color: #0BB7D4;
@@ -136,14 +136,8 @@ header nav ul li a.active{
     
 }
 .aboutus-text{
-    -webkit-columns: 2;
-     -moz-columns: 2;
-          columns: 2;
-          width: 100%;
-          margin: 0px auto;
-  -webkit-column-gap: normal;
-     -moz-column-gap: normal;
-          column-gap: normal;
+    position: relative;
+    
 }
 .aboutus h1{
     padding-bottom: 15px;
@@ -160,6 +154,13 @@ header nav ul li a.active{
     padding-top: 25px;
     padding-bottom: 17px;
 }
-.aboutimg{
-    margin-right: 15px;
+.aboutus-text{
+    display: inline-flex;
+}
+.aboutus-text img{
+    padding: 0px 20px;
+}
+.title{
+    padding: 0px 20px; 
+    
 }

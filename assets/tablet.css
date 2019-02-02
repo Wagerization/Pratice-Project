@@ -38,8 +38,12 @@
     .container-intro h1{
         text-align: center;
     }
-    .iconwrap{
-        column-count: 2;
+    .aboutus-text{
+        padding: 0px;
+    }
+    .title{
+        padding:  0px 25px; 
+        
     }
     
 }

@@ -17,4 +17,11 @@
     .container-intro h1{
         font-size: 42px;
     }
+    .aboutus-text img{
+        padding: 0px;
+    }
+    .title{
+        padding: 0px; 
+        
+    }
 }
