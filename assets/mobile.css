@@ -24,4 +24,10 @@
         padding: 0px; 
         
     }
+    .portfolio ul li{
+       padding: 0px;
+    }
+    .portfolio ul li a{
+        margin: 0px;
+    }
 }

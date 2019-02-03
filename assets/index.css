@@ -128,8 +128,7 @@ header nav ul li a.active{
     text-align: center;
     margin: 0px auto;
     color: #fff;
-    padding-top: 100px;
-    padding-bottom: 90px;
+    padding: 100px 50px;
 }
 .aboutus{
     text-transform: uppercase;
@@ -163,4 +162,45 @@ header nav ul li a.active{
 .title{
     padding: 0px 20px; 
     
+}
+.middle-text{
+    color: black;
+}
+.portfolio{
+    background-color: #053740;
+    margin: 0px auto;
+    text-align: center;
+    padding: 70px 0px;
+}
+.portfolio h1{
+    text-transform: uppercase;
+    color: #25BAD0;
+}
+.portfolio  {
+    padding-top: 100px;
+    padding-bottom: 90px;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+.portfolio ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.1em;
+    border: 1px solid #25BAD0;
+    margin: 25px 15px;
+    padding: 15px;
+}
+.portfolio ul li a{
+    text-decoration: none;
+    color: #25BAD0;
+    padding: 24px 0px;
+}
+.imglay{
+    
+}
+.imglay img{
+    padding: 12px;
+    width: 210px;
+    height: 210px;
 }
