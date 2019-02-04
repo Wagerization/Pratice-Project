@@ -1,11 +1,11 @@
-@media only screen and (width: 425px){
+@media only screen and (max-width: 426px){
     *, html{
         padding: 0px; 
         margin: 0px;
         width: 100%;
-    }
+    } 
     .services-title p{
-        font-size: 15px;
+        font-size: 16px;
     } 
     .iconwrap h1{
         line-height: 25px;
@@ -18,16 +18,23 @@
         font-size: 42px;
     }
     .aboutus-text img{
-        padding: 0px;
+        width: 260px;
+        height: 190px;
     }
     .title{
-        padding: 0px; 
-        
+        padding: 0px;
+    }
+    .iconwrap{
+        display: inline;
     }
     .portfolio ul li{
-       padding: 0px;
+       padding: 15px 0px;
+       margin: 0px;
     }
     .portfolio ul li a{
         margin: 0px;
+        padding: 0px;
     }
+    
+    
 }

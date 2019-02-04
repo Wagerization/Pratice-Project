@@ -98,7 +98,7 @@ header nav ul li a.active{
     
 }
 .iconwrap{
-    column-count: 4;
+    display: flex;
     text-align: center; 
     margin: 0px auto; 
 }
@@ -128,15 +128,10 @@ header nav ul li a.active{
     text-align: center;
     margin: 0px auto;
     color: #fff;
-    padding: 100px 50px;
+    padding: 100px 0px;
 }
 .aboutus{
-    text-transform: uppercase;
-    
-}
-.aboutus-text{
-    position: relative;
-    
+    text-transform: uppercase;  
 }
 .aboutus h1{
     padding-bottom: 15px;
@@ -176,18 +171,10 @@ header nav ul li a.active{
     text-transform: uppercase;
     color: #25BAD0;
 }
-.portfolio  {
-    padding-top: 100px;
-    padding-bottom: 90px;
-    padding-right: 25px;
-    padding-left: 25px;
-    
-}
 .portfolio ul li{
     list-style: none;
     display: inline-block;
     font-size: 1.1em;
-    border: 1px solid #25BAD0;
     margin: 25px 15px;
     padding: 15px;
 }
@@ -196,11 +183,40 @@ header nav ul li a.active{
     color: #25BAD0;
     padding: 24px 0px;
 }
-.imglay{
+.portfolio p{
+    padding: 40px 0;
+    text-transform: capitalize;
+
+}
+.meetteam{
+    background-color: #09B7D3;
+    text-align: center;
+    color: white;
+}
+.meettext p{
+    padding-bottom: 30px;
+}
+.meetteam h1{
+    padding: 30px 0px;
+    text-transform: uppercase;
+
+}
+.teamcolum{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+    display: block;
+    margin: 0px auto; 
+     
+}
+  .imagerow::after {
+    content: "";
+    clear: both;
+    display: table;
     
-}
-.imglay img{
-    padding: 12px;
-    width: 210px;
-    height: 210px;
-}
+  }
+  .imagerow img{
+      border-radius: 50%;
+  }
