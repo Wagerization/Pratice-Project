@@ -18,5 +18,8 @@
     .contact p{
         padding: 0px 70px;
     }
+    .contact p{
+        padding-bottom: 50px;
+    }
     
 }
