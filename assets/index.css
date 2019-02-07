@@ -186,7 +186,13 @@ header nav ul li a.active{
 .portfolio p{
     padding: 40px 0;
     text-transform: capitalize;
+    color: white;
 
+}
+.imglay img{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
 }
 .meetteam{
     background-color: #09B7D3;
@@ -201,22 +207,56 @@ header nav ul li a.active{
     text-transform: uppercase;
 
 }
-.teamcolum{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    text-align: center;
-    align-content: center;
-    display: block;
-    margin: 0px auto; 
-     
+.imagerow{
+    display: flex;
+    justify-content: center;
 }
-  .imagerow::after {
-    content: "";
-    clear: both;
-    display: table;
-    
-  }
-  .imagerow img{
-      border-radius: 50%;
-  }
+.imagerow > div {
+    padding: 60px;
+    text-align: center;
+}
+.imagerow img{
+    border-radius: 50%;
+}
+.imagerow p{
+    padding: 5px 0 15px 0;
+}
+imglay{
+    padding: 60px;
+}
+.contact{
+    background: url(../img/contact-bg.png);
+    background: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+.contact h1{
+    color: #25BAD0;
+    line-height: 70px;
+    text-transform: uppercase;
+
+}
+.contact p{
+    color: #779196;
+    padding: 30px 0;
+}
+.contact input{
+    background: rgba(255,255,255,0.2);
+    border: 1px solid black;
+    padding: 9px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.contact textarea{
+    background: rgba(255,255,255,0.2);
+    border: 1px solid black;
+}
+.contact button{
+    background: rgba(255,255,255,0.2);
+    border: 1px solid black;
+    text-transform: capitalize;
+    padding: 6px;
+    margin-top: 15px;
+}
