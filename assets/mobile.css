@@ -6,10 +6,6 @@
     } 
     .services-title p{
         font-size: 16px;
-    } 
-    .iconwrap h1{
-        line-height: 25px;
-        font-size: 1.2em;
     }
     .gear .rocket-ship p{
         padding-bottom: 115px;
@@ -26,6 +22,7 @@
     }
     .iconwrap{
         display: inline;
+        padding: 0px 50px;
     }
     .portfolio ul li{
        padding: 15px 0px;
@@ -34,6 +31,9 @@
     .portfolio ul li a{
         margin: 0px;
         padding: 0px;
+    }
+    .icon p{
+        padding: 0px 15550px;
     }
     
     

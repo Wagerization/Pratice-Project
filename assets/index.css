@@ -94,13 +94,14 @@ header nav ul li a.active{
     height: auto;
     width: 100%;
     text-align: center;
-    padding: 150px 0;
+    padding: 150px 0px;
     
 }
 .iconwrap{
     display: flex;
     text-align: center; 
-    margin: 0px auto; 
+    margin: 0px auto;
+    padding: 0px 150px;
 }
 .iconwrap h1{
     color: #09B7D3;
@@ -124,21 +125,23 @@ header nav ul li a.active{
     padding: 0px 120px;
 }
 .aboutus-wrapper{
-    background-color: #0BB7D4;
+    background-color: #20A7BC;
     text-align: center;
     margin: 0px auto;
     color: #fff;
     padding: 100px 0px;
 }
 .aboutus{
-    text-transform: uppercase;  
+    text-transform: capitalize;
 }
 .aboutus h1{
     padding-bottom: 15px;
 }
 .aboutus p{
-    padding-top: 15px;
-    padding-bottom: 60px;
+    padding: 15px 310px 60px 310px;
+}
+.aboutus-text {
+    padding: 0px 30px; 
 }
 .sub-text{
     text-align: justify;
@@ -236,6 +239,7 @@ imglay{
     color: #25BAD0;
     line-height: 70px;
     text-transform: uppercase;
+    padding-top: 60px;
 
 }
 .contact p{
@@ -255,8 +259,20 @@ imglay{
 }
 .contact button{
     background: rgba(255,255,255,0.2);
-    border: 1px solid black;
+    border: 1px solid #25BAD0;
     text-transform: capitalize;
+    color: #25BAD0;
     padding: 6px;
     margin-top: 15px;
+    margin-bottom: 60px;
+}
+.footer{
+    background-color: #053740;
+    color: #6D8084;
+    text-align: center;
+    padding: 15px;
+}
+.footer a{
+    color: #6D8084;
+    text-decoration: none;
 }

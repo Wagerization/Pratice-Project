@@ -48,6 +48,13 @@
         width: 450px;
         height: 450px;
     }
+    .aboutus-text{
+        display: inline-block;
+        padding: 0px 0px;
+    }
+    .aboutus p{
+        padding: 30px 0px ;
+    }
     .title{
         padding:  0px 25px;  
     }
@@ -55,5 +62,7 @@
         width: 150px;
         height: 150px;
     }
-    
+    .iconwrap{
+        padding: 0px;
+    }
 }

@@ -7,8 +7,16 @@
     }
     .aboutus-text{
         display: inline-block;
-        padding: 0px 100px;
+        padding: 0px 150px;
     
     }
-    
+    .iconwrap{
+        padding: 0px 50px;
+    }
+    .meetteam p{
+        padding: 0px 70px;
+    }
+    .contact p{
+        padding: 0px 70px;
+    }
 }
