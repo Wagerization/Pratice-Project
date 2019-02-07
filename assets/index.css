@@ -21,7 +21,6 @@ header .logo{
 }
 header nav{
     float: right;
-    
 }
 header nav ul{
     margin: 0;
@@ -79,7 +78,6 @@ header nav ul li a.active{
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-
 }
 .container-intro h1{font-size: 60px;}
 
@@ -95,7 +93,6 @@ header nav ul li a.active{
     width: 100%;
     text-align: center;
     padding: 150px 0px;
-    
 }
 .iconwrap{
     display: flex;
@@ -112,7 +109,6 @@ header nav ul li a.active{
 .iconwrap p{
     color: rgba(255,255,255,0.5);
     margin: 0 25px;
-    
 }
 .services-title h1{
     color: #09B7D3;
@@ -145,7 +141,6 @@ header nav ul li a.active{
 }
 .sub-text{
     text-align: justify;
-    
 }
 .sub-text h2{
     padding-top: 25px;
@@ -159,7 +154,6 @@ header nav ul li a.active{
 }
 .title{
     padding: 0px 20px; 
-    
 }
 .middle-text{
     color: black;
@@ -190,7 +184,6 @@ header nav ul li a.active{
     padding: 40px 0;
     text-transform: capitalize;
     color: white;
-
 }
 .imglay img{
     width: 150px;
@@ -208,7 +201,6 @@ header nav ul li a.active{
 .meetteam h1{
     padding: 30px 0px;
     text-transform: uppercase;
-
 }
 .imagerow{
     display: flex;
@@ -240,7 +232,6 @@ imglay{
     line-height: 70px;
     text-transform: uppercase;
     padding-top: 60px;
-
 }
 .contact p{
     color: #779196;
