@@ -3,3 +3,9 @@ $(document).ready(function(){
         $('nav').toggleClass('active')
     })
 })
+
+function aboutus(){
+    aboutus.scrollIntoView();
+}
+
+var aboutus = document.getElementsByClassName("aboutuswrapper");
